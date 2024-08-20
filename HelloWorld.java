@@ -1,3 +1,5 @@
+import static java.lang.String.join;
+
 /**
  * The HelloWorld class demonstrates a simple Java program 
  * that prints "Hello, World!" to the console.
@@ -12,7 +14,7 @@ public class HelloWorld {
     // this is where every Java program starts
     public static void main(String[] args) {
         // Prints "Hello, World!" to the console
-        String name = "Sam";
-        System.out.println(name);
+        String name = "Matthew";
+        System.out.println(join("", "Hello, ", name, "!"));
     }
 }
